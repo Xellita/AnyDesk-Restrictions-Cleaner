@@ -16,6 +16,11 @@ A small script to reset the restrictions on the free version of AnyDesk.
 1. Download the latest version from the **Releases** section.
 2. Run the executable as Administrator.
 
+### How to build
+```powershell
+ps2exe -inputFile ".\AnyDesk Restrictions Cleaner.ps1" -outputFile ".\AnyDesk Restrictions Cleaner.exe" -icon ".\icon.ico" -requireAdmin
+```
+
 ### Technical Details:
 - Runtime: PowerShell 5.1+.
 - Build Method: Executable built using PS2EXE.
@@ -33,6 +38,11 @@ A small script to reset the restrictions on the free version of AnyDesk.
 ### Инструкция по эксплуатации
 1. Перейдите в раздел **Releases** и скачайте актуальную версию инсталлятора.
 2. Запустите исполняемый файл от имени Администратора.
+
+### Как собрать
+```powershell
+ps2exe -inputFile ".\AnyDesk Restrictions Cleaner.ps1" -outputFile ".\AnyDesk Restrictions Cleaner.exe" -icon ".\icon.ico" -requireAdmin
+```
 
 ### Технические сведения 
 - Среда исполнения: PowerShell 5.1+.

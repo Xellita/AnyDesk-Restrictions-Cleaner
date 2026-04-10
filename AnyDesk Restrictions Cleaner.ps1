@@ -16,6 +16,8 @@ $UI = @{
     }
 }
 
+$Host.UI.RawUI.WindowTitle = "AnyDesk Restrictions Cleaner by Xellita"
+
 # ru/en win detection
 $Lang = if ((Get-Culture).Name -match "ru") { $UI.RU } else { $UI.EN }
 
